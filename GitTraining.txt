@@ -1,0 +1,29 @@
+Git tutorial URL
+https://www.youtube.com/watch?v=SWYqp7iY_Tc
+
+Git commands on git bash
+
+touch filename -to create filename
+
+touch index.html
+touch app.js
+git init
+git config --global user.name 'indrayanee'
+git config --global user.email 'indrayanee137@gmail.com'
+git add index.html
+git status - to see the files in staging area
+git add . -to add all files
+git re --cached index.html -to remove from stagin area
+git commit - will open vm editor
+git commit -m "" - will commit with message
+touch .gitignore
+touch log.txt
+git branch login
+git checkout login
+touch login.html -update file
+git commit -m "Added login branch"
+git checkout master
+git merge
+git remote - none as remote is not setup yet
+git remote add origin https://github.com/indrayanee/GitTraining.git
+git remote
